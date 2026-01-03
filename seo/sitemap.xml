@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Página Principal -->
+  <url>
+    <loc>https://techlib.pages.dev/</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://techlib.pages.dev/assets/img/ebook.png</image:loc>
+      <image:title>Tutorial HTML CSS JS com Deploy Estático</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://techlib.pages.dev/assets/img/markup.png</image:loc>
+      <image:title>Tutorial Markdown e Pandoc</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://techlib.pages.dev/assets/img/book3.png</image:loc>
+      <image:title>Ebook 3</image:title>
+    </image:image>
+  </url>
+
+  <!-- Produto 1 -->
+  <url>
+    <loc>https://techlib.pages.dev/#product1</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://techlib.pages.dev/assets/img/ebook.png</image:loc>
+      <image:title>Tutorial HTML CSS JS com Deploy Estático</image:title>
+    </image:image>
+  </url>
+
+  <!-- Produto 2 -->
+  <url>
+    <loc>https://techlib.pages.dev/#product2</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://techlib.pages.dev/assets/img/markup.png</image:loc>
+      <image:title>Tutorial Markdown e Pandoc</image:title>
+    </image:image>
+  </url>
+
+  <!-- Produto 3 -->
+  <url>
+    <loc>https://techlib.pages.dev/#product3</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://techlib.pages.dev/assets/img/book3.png</image:loc>
+      <image:title>Ebook 3</image:title>
+    </image:image>
+  </url>
+
+  <!-- Seção Footer/Contato -->
+  <url>
+    <loc>https://techlib.pages.dev/#idfooter</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

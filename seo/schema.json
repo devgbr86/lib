@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://techlib.pages.dev/#website",
+      "url": "https://techlib.pages.dev/",
+      "name": "TECHLIB",
+      "description": "Biblioteca técnica com guias e tutoriais práticos de desenvolvimento front-end, web interfaces e ferramentas digitais",
+      "publisher": {
+        "@id": "https://techlib.pages.dev/#person"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://techlib.pages.dev/#person",
+      "name": "Guilherme Ribeiro",
+      "url": "https://techlib.pages.dev/",
+      "email": "topverbs@gmail.com",
+      "sameAs": [
+        "https://github.com/devgbr86",
+        "https://linkedin.com/in/devgbr"
+      ],
+      "jobTitle": "Desenvolvedor Front-End",
+      "description": "Autor de tutoriais e ebooks sobre desenvolvimento front-end e web interfaces"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://techlib.pages.dev/#webpage",
+      "url": "https://techlib.pages.dev/",
+      "name": "TECHLIB - Guias e Tutoriais Front-End",
+      "isPartOf": {
+        "@id": "https://techlib.pages.dev/#website"
+      },
+      "about": {
+        "@id": "https://techlib.pages.dev/#person"
+      },
+      "description": "Guias e Tutoriais com exercícios práticos, organização lógica e progressiva. Ebooks em formato EPUB, PDF e MOBI",
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "Product",
+      "@id": "https://techlib.pages.dev/#product1",
+      "name": "Tutorial HTML CSS JS com Deploy Estático",
+      "description": "Guia prático sobre HTML, CSS, JavaScript e deploy estático com GitHub Pages",
+      "image": "https://techlib.pages.dev/assets/img/ebook.png",
+      "offers": {
+        "@type": "Offer",
+        "price": "54.00",
+        "priceCurrency": "BRL",
+        "availability": "https://schema.org/InStock",
+        "url": "https://techlib.pages.dev/#product1",
+        "priceValidUntil": "2026-12-31",
+        "seller": {
+          "@id": "https://techlib.pages.dev/#person"
+        }
+      },
+      "category": "Ebook",
+      "inLanguage": "pt-BR",
+      "bookFormat": "https://schema.org/EBook",
+      "numberOfPages": "Variável",
+      "author": {
+        "@id": "https://techlib.pages.dev/#person"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://techlib.pages.dev/#product2",
+      "name": "Tutorial Markdown e Pandoc",
+      "description": "Aprenda como produzir Ebooks e Artigos usando Markdown e exportar usando Pandoc",
+      "image": "https://techlib.pages.dev/assets/img/markup.png",
+      "offers": {
+        "@type": "Offer",
+        "price": "54.00",
+        "priceCurrency": "BRL",
+        "availability": "https://schema.org/InStock",
+        "url": "https://techlib.pages.dev/#product2",
+        "priceValidUntil": "2026-12-31",
+        "seller": {
+          "@id": "https://techlib.pages.dev/#person"
+        }
+      },
+      "category": "Ebook",
+      "inLanguage": "pt-BR",
+      "bookFormat": "https://schema.org/EBook",
+      "numberOfPages": "Variável",
+      "author": {
+        "@id": "https://techlib.pages.dev/#person"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://techlib.pages.dev/#product3",
+      "name": "Ebook 3",
+      "description": "Ebook sobre VS Code e desenvolvimento Front-End",
+      "image": "https://techlib.pages.dev/assets/img/book3.png",
+      "offers": {
+        "@type": "Offer",
+        "price": "15.00",
+        "priceCurrency": "BRL",
+        "availability": "https://schema.org/InStock",
+        "url": "https://techlib.pages.dev/#product3",
+        "priceValidUntil": "2026-12-31",
+        "seller": {
+          "@id": "https://techlib.pages.dev/#person"
+        }
+      },
+      "category": "Ebook",
+      "inLanguage": "pt-BR",
+      "bookFormat": "https://schema.org/EBook",
+      "numberOfPages": "Variável",
+      "author": {
+        "@id": "https://techlib.pages.dev/#person"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://techlib.pages.dev/#productlist",
+      "name": "Ebooks TECHLIB",
+      "description": "Lista de ebooks disponíveis na TECHLIB",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://techlib.pages.dev/#product1"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://techlib.pages.dev/#product2"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://techlib.pages.dev/#product3"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://techlib.pages.dev/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://techlib.pages.dev/"
+        }
+      ]
+    }
+  ]
+}

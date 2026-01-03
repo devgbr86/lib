@@ -1,0 +1,11 @@
+# robots.txt - TECHLIB
+# Permite acesso total para todos os crawlers
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://techlib.pages.dev/SEO/sitemap.xml
+
+# Crawl-delay (opcional - ajuste conforme necessário)
+# Crawl-delay: 1
